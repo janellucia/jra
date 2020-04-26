@@ -5,16 +5,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
+    position: relative;
 
     .logo {
       max-width: 100px;
-      a {
-        width: 100%;
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
+      height: 27px;
     }
 
     .menu {
