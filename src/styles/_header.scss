@@ -1,0 +1,39 @@
+header {
+
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+    .logo {
+      max-width: 100px;
+      a {
+        width: 100%;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .menu {
+      a {
+        font-family: $mainItalic;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        text-decoration: none;
+        margin: 0 10px;
+        color: $black;
+
+        &:hover, &:focus, &:active {
+          color: $mainColor;
+        }
+      }
+    }
+  }
+}
+
+
+
+

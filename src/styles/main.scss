@@ -1,0 +1,53 @@
+@import 'variables';
+@import 'header';
+@import 'menu';
+@import 'footer';
+
+@import 'home';
+
+
+body {
+ background: $white;
+ font-family: $mainFont;
+ margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $mainFont;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+    @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+// Skip to Content links / Accessibility links
+a.hidden {
+  left:-1200000px;
+  position:absolute;
+  top:0;
+  // left: 0;
+  width: 0;
+  height: 0;
+  overflow:hidden;
+  z-index:-999;
+}
+a.hidden:focus, a.hidden:active {
+  color: $black;
+  background-color:$mainColor;
+  top: auto;
+  left: 0;
+  width: 150px;
+  height: auto;
+  overflow:auto;
+  // margin: 10px 15%;
+  padding:5px;
+  text-align:center;
+  font-size:1.2em;
+  z-index:999;
+}

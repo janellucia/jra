@@ -1,0 +1,67 @@
+$black: #000;
+$white: #f8f7f3;
+$grey: #a49b94;
+
+$mainColor: #d1591f;
+$secondColor: #dbe4eb; 
+$thirdColor: #a49b94; 
+$fourthColor: #f8f7f3;
+
+
+@font-face {
+  font-family: 'Compagnon Light';
+  src: url('../fonts/Compagnon-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Compagnon-Light.eot#eifix') format('embedded-opentype'),
+      url('../fonts/Compagnon-Light.eot') format('woff2'),
+      url('../fonts/Compagnon-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Compagnon Roman';
+  src: url('../fonts/Compagnon-Roman.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Compagnon-Roman.eot#eifix') format('embedded-opentype'),
+      url('../fonts/Compagnon-Roman.eot') format('woff2'),
+      url('../fonts/Compagnon-Roman.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Compagnon Italic';
+  src: url('../fonts/Compagnon-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Compagnon-Italic.eot#eifix') format('embedded-opentype'),
+      url('../fonts/Compagnon-Italic.eot') format('woff2'),
+      url('../fonts/Compagnon-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Compagnon Bold';
+  src: url('../fonts/Compagnon-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Compagnon-Bold.eot#eifix') format('embedded-opentype'),
+      url('../fonts/Compagnon-Bold.eot') format('woff2'),
+      url('../fonts/Compagnon-Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Inter Regular';
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+       url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter SemiBold';
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+       url("../fonts/Inter-SemiBold.woff") format("woff");
+}
+
+
+
+$mainFont: 'Compagnon Roman', serif;
+$mainLight:'Compagnon Light', serif;
+$mainItalic:'Compagnon Italic', serif;
+$mainBold:'Compagnon Bold', serif;
+
+
+
+
+$secondaryFont:  'Inter SemiBold', sans-serif;
+$thirdFont:  'Inter Regular', sans-serif;
