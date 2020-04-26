@@ -24,7 +24,10 @@ const IndexPage = () => (
           </h2>
         </div>
         <div className="info">
-          <p>Justin Rousseau & Associates is lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ipsum leo, vitae condimentum nulla tincidunt eget. Morbi pulvinar augue non orci maximus rutrum id at neque. Fusce posuere ornare lorem, vel rutrum libero blandit at. Duis viverra elit lectus, sed venenatis lectus iaculis non.</p>
+          <p>JR & Associates is a private hair studio located in Parkdale.</p>
+          <p>Due to covid-19 we, like everyone, have been closed. We are closely monitoring the situation and want to prepare as best we can for when it is time to open back up.</p>
+          <p>As soon as we understand when we may be able to open we will activate a link for online booking.</p>
+          <p> Thank you very much for your patience and we really look forward to being able to serve our clients again.</p>
         </div>
       </div>
     </section>
