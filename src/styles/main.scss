@@ -20,7 +20,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   max-width: 1400px;
   margin: 0 auto;
-
     @media (max-width: 768px) {
     width: 90%;
   }
@@ -31,7 +30,6 @@ a.hidden {
   left:-1200000px;
   position:absolute;
   top:0;
-  // left: 0;
   width: 0;
   height: 0;
   overflow:hidden;

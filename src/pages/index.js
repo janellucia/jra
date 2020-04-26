@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Slider from "../components/slider"
 
-import landing from "../images/landing.png"
+import landing from "../images/landing-1.png"
 
 const IndexPage = () => (
   <Layout>
@@ -17,10 +17,11 @@ const IndexPage = () => (
         </div>
         <div className="image">
           <img src={landing} alt="" />
-          <h1>
-            <span>Justin</span>
-            <span>Rousseau <br></br>& Assoc.</span>
-          </h1>
+          <h2>
+            {/* <span>Justin</span> */}
+            <span></span>
+            <span>J R & <br></br>Associates</span>
+          </h2>
         </div>
         <div className="info">
           <p>Justin Rousseau & Associates is lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ipsum leo, vitae condimentum nulla tincidunt eget. Morbi pulvinar augue non orci maximus rutrum id at neque. Fusce posuere ornare lorem, vel rutrum libero blandit at. Duis viverra elit lectus, sed venenatis lectus iaculis non.</p>
