@@ -37,7 +37,7 @@ const IndexPage = () => (
           <h2>book an appointment</h2>
           <p></p>
         </div>
-        <a href="https://go.booker.com/location/JRandassociates" target="blank" rel="noopener noreferrer">book now</a>
+        <a target="blank" rel="noopener noreferrer">book now</a>
       </div>
     </section>
 

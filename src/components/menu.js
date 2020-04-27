@@ -9,7 +9,7 @@ export default props => {
 
       <a href="mailto:booking@jrandassociates.org">contact</a>
 
-      <a href="https://go.booker.com/location/JRandassociates" target="blank" rel="noopener noreferrer">book</a>
+      <a target="blank" rel="noopener noreferrer">book</a>
     </Menu>
   );
 };
